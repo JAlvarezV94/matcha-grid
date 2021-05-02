@@ -1,0 +1,31 @@
+:root{
+    --green-lighter: #d7fff1;
+    --green-light: #aafcb8;
+    --green-dark: #8cd790;
+    --green-darker: #285943;
+}
+
+@font-face {
+    font-family: 'Title';
+    src: url('../fonts/Montserrat/Montserrat-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Subtitle';
+    src: url('../fonts/Anton/Anton-Regular.ttf');
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background: var(--green-dark)
+}
+
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
